@@ -1,0 +1,216 @@
+ .nav-main {
+	/* width:100%; */
+	/* padding:10px 18px; */
+	box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+	border-radius:3px;
+	background:#303030;
+	}
+}
+
+.nav-main ul {
+	display:inline-block;
+}
+
+.nav-main li {
+	margin:0px 50px 0px 0px;
+	float:left;
+	list-style:none;
+	font-size:17px;
+}
+
+.nav-main li:last-child {
+	margin-right:0px;
+}
+
+.nav-main a {
+	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+	color:#777;
+	transition:color linear 0.15s;
+}
+
+.nav-main a:hover, .nav-main .current-item a {
+	text-decoration:none;
+	color:#66a992;
+}
+
+
+
+-----------------------
+
+a.to_nav {
+    color: #fff;
+    background: #4e4e4e;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+    height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+a.to_nav:hover,
+a.to_nav:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+/*Primary navigation*/ 
+ 
+#primary_nav ul {
+    list-style: none;
+    background: #1c1c1c;
+    padding: 5px 0;
+}
+ 
+#primary_nav li a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    height: 2em;
+    border-bottom: 1px solid #383838;
+}
+ 
+#primary_nav li:last-child a {
+    border-bottom: none;
+}
+ 
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+.button-mobile-menu {
+    width: 25px;
+    height: 25px;
+    /* object-fit: none; */
+    object-position: 0 0;
+    transition: all .1s ease;
+    z-index: 1000;    
+ }
+
+ 
+ .show-mobile-menu .nav-main {
+    height: 50px;
+	margin-top: 1%;
+}
+
+
+-----------------
+
+ 
+to_nav:hover,
+to_nav:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+ .nav-main {
+   height: 40px;
+   line-height: 1;
+   text-align: center;
+   background-color: rgb(243, 242, 202); 
+ }
+
+
+
+
+
+
+
+
+
+    
+    .nav-main ul {
+        display: block;
+        width: 100%;
+        margin-left: 0;        
+    }
+
+	.nav-main li:first-child a {
+		padding-top: 0;
+        border-top: 1px solid #024109;
+        text-align: center;
+	}
+
+	.nav-main li:last-child a {
+		border-bottom: none;
+        padding: 1px 0;
+        text-align: center;    
+	}
+
+	.nav-main a:focus,
+	.nav-main a:hover,
+	.nav-main a:active {
+		background-color: rgb(219, 209, 199);
+	}
+
+	.nav-main .nav-active {
+		color: red;
+    }
+
+--------
+
+COntact form:
+
+                                <!-- <table width="450px">
+                                <tr>
+                                 <td valign="top">
+                                  <label for="first_name">First Name *</label>
+                                 </td>
+                                 <td valign="top">
+                                  <input  type="text" name="first_name" maxlength="50" size="30">
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td valign="top">
+                                  <label for="last_name">Last Name *</label>
+                                 </td>
+                                 <td valign="top">
+                                  <input  type="text" name="last_name" maxlength="50" size="30">
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td valign="top">
+                                  <label for="email">Email Address *</label>
+                                 </td>
+                                 <td valign="top">
+                                  <input  type="text" name="email" maxlength="80" size="30">
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td valign="top">
+                                  <label for="telephone">Telephone Number</label>
+                                 </td>
+                                 <td valign="top">
+                                  <input  type="text" name="telephone" maxlength="30" size="30">
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td valign="top">
+                                  <label for="comments">Comments *</label>
+                                 </td>
+                                 <td valign="top">
+                                  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td colspan="2" style="text-align:center">
+                                  <input type="submit" value="Submit">
+                                 </td>
+                                </tr>
+                                </table> -->
+                               
+
+

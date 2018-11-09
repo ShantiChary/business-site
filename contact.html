@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>        
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="./styles/bootstrap-reboot-with-comments.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">                      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">                                  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>MoVigil - Fatigue Management Systems</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="main-header">
+                <a href="index.html">
+                    <picture class="logo">
+                        <source media="(max-width: 600px)"
+                        srcset="./images/movigil-logo.png"> 
+                        <img src="./images/movigil-logo-large.png" alt="logo">                       
+                    </picture>
+                </a>
+
+                <nav class="nav-main">                              
+                    <ul class="active">
+                        <li><a href="index.html">Home</a></li>                         
+                        <li class="current-item"><a href="contact.html">Contact Us</a></li>               
+                    </ul>
+    
+                    <a class="toggle-nav" href="#">&#9776;</a>                
+                </nav>                 
+
+                <!-- <div>
+                    <a class="btn-mobile-menu" id="primary_nav">Menu</a>                     -->
+                    <!-- <img class="btn-mobile-menu" src="./images/menu-30x30.jpg" alt="Hamburger Menu Icon"> -->
+                <!-- </div>   -->
+            </header> <!--end header-->            
+
+            <main class="contact-main">
+                <h1>Contact us</h1>                 
+                <div class="contact-sections">               
+                    <section class="contact-01">
+                        <form name="contactform" method="post" action="send_form_email.php">
+                            <div>
+                                <label>
+                                    <span>Your name</span><input id="name" type="text" name="name" />
+                                </label>
+                            
+                                <label>
+                                    <span>Email Address</span><input id="email" type="text" name="email" />
+                                </label>
+                            
+                                <label>
+                                    <span>Subject</span><input id="subject" type="text" name="subject" />
+                                </label>
+                            
+                                <label>
+                                    <span>Message</span><textarea id="feedback" name="feedback"></textarea>
+                                    <input class="submit-button" type="submit" value="Submit Form" />
+                                </label>
+                            </div>
+                        </form>                    
+                    </section>
+
+                    <section class="contact-02">
+                        <div class="company-address">                    
+                            <h4>MoVigil</h4>
+                            <ul>
+                                <li>5432 Any Street</li>
+                                <li>Townsville, State 54321</li>
+                                <li>Phone: 543-543-5432</li>
+                                <li>Fax: 543-543-5432</li>
+                            </ul>
+                        </div>
+
+                        <div class="email-address">
+                                <h4>For questions or support, email us at:</h4>
+                                <ul>
+                                    <li>info@movigil.com</li>
+                                </ul>
+                            </div>                    
+                    </section>
+                </div>
+
+                <footer>
+                        <div class="social-media">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>                           
+                                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>                            
+                            </ul>
+                        </div>
+    
+                        <div class="email">
+                            <ul>
+                                <li>Email: info@movigil.com</li>
+                            </ul>
+                        </div>
+    
+                        <div class="footer-divs">
+                            <div class="services">
+                                <h4>Services:</h4>
+                                <ul>
+                                    <li>Technical Support</li>
+                                    <li>Installation and Setup</li>
+                                    <li>Maintenance</li>
+                                    <li>Application Support</li>
+                                    <li>Hardware Support</li>
+                                    <li>Guaranteed Warranty</li>
+                                </ul>
+                            </div>
+    
+                            <div class="company-address-footer">
+                                <h4>MoVigil</h4>
+                                <ul>
+                                    <li>5432 Any Street</li>
+                                    <li>Townsville, State 54321</li>
+                                    <li>Phone: 543-543-5432</li>
+                                    <li>Fax: 543-543-5432</li>
+                                </ul>
+                            </div>
+                        </div>                        
+    
+                        <div class="copyright">&copy; 2018 MoVigil</div>
+
+                        <!-- Back to top button -->
+                        <a id="button"></a>
+    
+                    </footer>
+                </main>
+        </div> <!-- end wrapper-->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        
+        <script>
+        window.jQuery || document.write('<script src="http://mysite.com/jquery.min.js"><\/script>')
+        </script>
+        
+        <script src="./scripts/javascript.js"></script> 
+
+    </body>
+</html>
